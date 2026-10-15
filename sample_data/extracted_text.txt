@@ -1,0 +1,26 @@
+Machine Learning (ML) is a branch of Artificial Intelligence in which computers learn from data
+instead of following hand-written rules. In traditional programming, you give the computer rules
+and data, and it produces an output. In ML, you give it data and the expected outputs, and it
+discovers the rules on its own.
+
+For example, if you show a system thousands of emails labeled “spam” or “not spam’, it learns
+what spam looks like. When a new email arrives, it can predict the label by itself.
+
+There are three main types of ML. Supervised learning uses labeled data, such as predicting
+house prices. Unsupervised learning finds hidden patterns in unlabeled data, such as grouping
+customers by behavior. Reinforcement learning trains an agent through rewards and penalties,
+such as an Al learning to play a game.
+
+A typical workflow looks like this: collect and clean data, choose a model, train it on a training
+set, evaluate it on unseen test data, and then deploy it. A common problem is overfitting, where
+a model memorizes the training data and performs poorly on new data.
+
+Deep learning is a subset of ML that uses multi-layered neural networks. It powers image
+recognition, speech assistants, and object detectors like YOLO.
+
+ML is everywhere in daily life: Netflix recommendations, Google Maps traffic predictions, face
+unlock, fraud detection in banking, and even your number plate project, where a YOLO model
+learns from annotated images to locate plates.
+
+In short, machine learning means improving at a task through experience with data, rather than
+through explicit programming.

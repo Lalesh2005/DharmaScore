@@ -1,0 +1,9 @@
+Machine Learning (ML) is the practice of building systems that improve at a task by learning from data rather than following hand-written rules. Instead of telling a program exactly how to recognize a spam email, you give it many examples and let it discover what separates spam from normal mail.
+
+Every ML system follows the same basic cycle. You collect data, clean it, and convert it into a numerical form the model can work with. You then train the model on one portion of the data and test it on a portion it has never seen. If it performs well on new data, it has generalized. If it only memorizes the training examples, it has overfit, which is one of the most common problems in practice.
+
+ML is usually divided into three types. Supervised learning learns from labeled examples, such as predicting house prices or classifying intents. Unsupervised learning finds structure in unlabeled data, such as grouping similar customers. Reinforcement learning learns by trial and error, guided by rewards.
+
+In text-based projects like yours, the data starts as words, so it must be turned into numbers first. TF-IDF handles that step by producing a numeric vector for each sentence. Cosine similarity then measures how close two vectors are, so the model can match a new input to the most similar known example. Together they form a simple, fast, and explainable approach to text classification and retrieval.
+
+The real strength of ML is that it scales. Once a model is trained, it can make thousands of predictions in seconds, powering recommendations, chatbots, fraud detection, and image recognition.
